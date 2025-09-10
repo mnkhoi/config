@@ -1,20 +1,5 @@
-Thunar/
-abrt/
-dconf/
-enchant/
-gconf/
-gedit
-goa-1.0/
-gtk*
-htop
-ibus
-lazygit
-nautilus
-pulse
-xfce4
-Trolltech.conf
-user-dirs*
+*
 
-
-*~
-*.old
+!.gitinore
+!.tmux.conf
+!nvim/
