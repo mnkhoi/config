@@ -1,5 +1,12 @@
 *
 
+!README.md
+!overlays/
+!pkgs/
+!nixos/
+!flake*
+!modules/
+!home-manager/
 !.gitinore
 !.tmux.conf
 !nvim/
