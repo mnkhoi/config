@@ -42,7 +42,7 @@
       };
   
   # hostname
-  networking.hostName = "user";
+  networking.hostName = "nixos";
 
   # Enable networking
 
@@ -114,8 +114,6 @@
 
   services.blueman.enable = true;
 
-  sound.enable = true;
-
   security.rtkit.enable = true;
 
   # Enable audio through pipewire
@@ -136,7 +134,7 @@
   };
 
 
-  users = {
+  users.users = {
     khoinguyen = {
       isNormalUser = true;
       description = "Khoi Nguyen";
