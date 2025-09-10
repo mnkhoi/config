@@ -11,6 +11,9 @@
     xwayland.enable = true;
     sourceFirst = true;
     settings = {
+      debug = {
+        disable_logs = false;
+      };
       source = [
         "/etc/nixos/home-manager/modules/hyprland/mocha.conf" # Theme
       ];
