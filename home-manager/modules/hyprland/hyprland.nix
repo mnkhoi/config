@@ -17,7 +17,7 @@
       monitor = ",preferred,auto,1";
 
 # Programms
-      "$terminal" = "kitty";
+      "$terminal" = "ghostty";
       "$webBrowser" = "firefox";
       "$menu" = "tofi-drun --drun-launch=true";
       "$codeEditor" = "code";
